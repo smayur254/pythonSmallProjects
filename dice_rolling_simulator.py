@@ -1,0 +1,45 @@
+import random
+
+user_input = "Y"
+
+while user_input.upper() == "Y":
+    number = random.randint(1,6)
+    if  number == 1:
+        print("[---------]")
+        print("[         ]")
+        print("[    0    ]")
+        print("[         ]")
+        print("[---------]")
+    elif number == 2:
+        print("[---------]")
+        print("[  0      ]")
+        print("[         ]")
+        print("[      0  ]")
+        print("[---------]")
+    elif number == 3:
+        print("[---------]")
+        print("[         ]")
+        print("[ 0  0  0 ]")
+        print("[         ]")
+        print("[---------]")
+
+    elif number == 4:
+        print("[---------]")
+        print("[ 0     0 ]")
+        print("[         ]")
+        print("[ 0     0 ]")
+        print("[---------]")
+    elif number == 5:
+        print("[---------]")
+        print("[ 0     0 ]")
+        print("[    0    ]")
+        print("[ 0     0 ]")
+        print("[---------]")
+    else:
+        print("[---------]")
+        print("[ 0  0  0 ]")
+        print("[         ]")
+        print("[ 0  0  0 ]")
+        print("[---------]")
+    user_input = input("press Y for roll the dice or press N for quite the game:")
+            
